@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1{
+    /* padding: 0px 0px 0px 20px; */
+    margin-bottom: 20px;
+    /* display: inline-block; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.logo-ministry{
+    display: inline-block;
+    max-width: 100%;
+    height: 80px;
+    padding: 30px 0px 0px 30px;
+}
+
+.header{
+    background-color: #fbac1b;
+}
+
+.body-reg{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#submit{
+    text-decoration: none;
+    margin-top: 100px;
+    background-color: #fbac1b;
+    color: aliceblue;
+    padding: 30px;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius:40px;
+    font-weight: 800;
+}
+
+#submit:hover{
+    text-decoration: none;
+    /* margin-top: 50px; */
+    background-color: blue;
+    color: aliceblue;
+    padding: 30px;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: 800;
+}
+
+.date{
+    color: blue;
+}
+
+.footer{
+    text-align: center;
+    background-color: azure;
+    margin-top: 210px;
+}
+
+.head{
+    background-color: #fbac1b;
+    padding: 30px;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+.eligible{
+    padding: 30px;
+}
+
+.eli{
+    padding-bottom: 20px;
+}
+
+.btn{
+    text-align: center;
+    /* margin-top: 100px; */
+}
+
+.h2{
+    padding-bottom: 90px;
+}
+
+.fill{
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #submit {
+        padding: 15px 30px;
+        font-size: 1.2rem;
+    }
+
+    .eligible {
+        padding: 20px;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    #submit {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+
+    .head h2, .head h4 {
+        font-size: 1rem;
+    }
+
+    .eligible p {
+        font-size: 0.9rem;
+    }
+}
